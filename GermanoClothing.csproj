@@ -1,0 +1,58 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\images\produtos\large_01.png" />
+    <Content Remove="wwwroot\images\produtos\large_02.png" />
+    <Content Remove="wwwroot\images\produtos\large_03.png" />
+    <Content Remove="wwwroot\images\produtos\large_04.png" />
+    <Content Remove="wwwroot\images\produtos\large_05.png" />
+    <Content Remove="wwwroot\images\produtos\large_06.png" />
+    <Content Remove="wwwroot\images\produtos\large_07.png" />
+    <Content Remove="wwwroot\images\produtos\large_08.png" />
+    <Content Remove="wwwroot\images\produtos\large_09.png" />
+    <Content Remove="wwwroot\images\produtos\large_10.png" />
+    <Content Remove="wwwroot\images\produtos\large_11.png" />
+    <Content Remove="wwwroot\images\produtos\large_12.png" />
+    <Content Remove="wwwroot\images\produtos\large_13.png" />
+    <Content Remove="wwwroot\images\produtos\large_14.png" />
+    <Content Remove="wwwroot\images\produtos\large_15.png" />
+    <Content Remove="wwwroot\images\produtos\large_16.png" />
+    <Content Remove="wwwroot\images\produtos\large_17.png" />
+    <Content Remove="wwwroot\images\produtos\large_18.png" />
+    <Content Remove="wwwroot\images\produtos\large_19.png" />
+    <Content Remove="wwwroot\images\produtos\large_20.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\produtos\large_01.png" />
+    <None Include="wwwroot\images\produtos\large_10.png" />
+    <None Include="wwwroot\images\produtos\large_11.png" />
+    <None Include="wwwroot\images\produtos\large_12.png" />
+    <None Include="wwwroot\images\produtos\large_13.png" />
+    <None Include="wwwroot\images\produtos\large_14.png" />
+    <None Include="wwwroot\images\produtos\large_15.png" />
+    <None Include="wwwroot\images\produtos\large_16.png" />
+    <None Include="wwwroot\images\produtos\large_17.png" />
+    <None Include="wwwroot\images\produtos\large_18.png" />
+    <None Include="wwwroot\images\produtos\large_19.png" />
+    <None Include="wwwroot\images\produtos\large_02.png" />
+    <None Include="wwwroot\images\produtos\large_20.png" />
+    <None Include="wwwroot\images\produtos\large_03.png" />
+    <None Include="wwwroot\images\produtos\large_04.png" />
+    <None Include="wwwroot\images\produtos\large_05.png" />
+    <None Include="wwwroot\images\produtos\large_06.png" />
+    <None Include="wwwroot\images\produtos\large_07.png" />
+    <None Include="wwwroot\images\produtos\large_08.png" />
+    <None Include="wwwroot\images\produtos\large_09.png" />
+  </ItemGroup>
+
+</Project>
